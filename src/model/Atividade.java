@@ -2,15 +2,15 @@ package model;
 
 public class Atividade {
     private Long id;
-    private String TipoAtividade;
+    private TipoAtividade tipo;
     private double distanciaKm;
     private int pontuacao;
     private boolean validada;
 
 
-    public Atividade(Long id, String tipo, double distanciaKm, int pontuacao, boolean validada) {
+    public Atividade(Long id, TipoAtividade tipo, double distanciaKm, int pontuacao, boolean validada) {
         this.id = id;
-        this.TipoAtividade = tipo;
+        this.tipo = tipo;
         this.distanciaKm = distanciaKm;
         this.pontuacao = pontuacao;
         this.validada = validada;
@@ -25,12 +25,12 @@ public class Atividade {
         this.id = id;
     }
 
-    public String getTipo() {
-        return TipoAtividade;
+    public TipoAtividade getTipo() {
+        return tipo;
     }
 
-    public void setTipo(String tipo) {
-        this.TipoAtividade = tipo;
+    public void setTipo(TipoAtividade tipo) {
+        this.tipo = tipo;
     }
 
     public double getDistanciaKm() {
