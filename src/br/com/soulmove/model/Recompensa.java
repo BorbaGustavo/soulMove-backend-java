@@ -1,3 +1,5 @@
+package br.com.soulmove.model;
+
 import java.util.Collection;
 
 public class Recompensa {
@@ -7,8 +9,6 @@ public class Recompensa {
 	private String descricao;
 
 	private int valor;
-
-	private Missao missao;
 
 	private Ranking ranking;
 

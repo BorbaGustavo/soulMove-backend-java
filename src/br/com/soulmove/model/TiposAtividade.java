@@ -1,3 +1,5 @@
+package br.com.soulmove.model;
+
 public enum TiposAtividade {
 
 	RECICLAGEM,
@@ -10,6 +12,6 @@ public enum TiposAtividade {
 
 	REDUCAO_ENERGIA;
 
-	private Atividade  atividade ;
+	private Atividade atividade ;
 
 }

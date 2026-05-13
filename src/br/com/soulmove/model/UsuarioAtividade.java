@@ -1,3 +1,6 @@
+package br.com.soulmove.model;
+import java.util.Date;
+
 public class UsuarioAtividade {
 
 	private long id;
@@ -8,7 +11,7 @@ public class UsuarioAtividade {
 
 	private Usuario usuario;
 
-	private Atividade  atividade ;
+	private Atividade atividade ;
 
 	public void registrarAtividade() {
 

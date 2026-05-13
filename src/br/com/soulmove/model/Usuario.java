@@ -1,3 +1,6 @@
+package br.com.soulmove.model;
+
+
 import java.util.Collection;
 
 public class Usuario {
@@ -16,15 +19,7 @@ public class Usuario {
 
 	private int pontuacaoSoul;
 
-	private Collection<Atividade > atividade ;
-
-	private Missao missao;
-
-	private Ranking ranking;
-
-	private Ranking ranking;
-
-	private Collection<UsuarioRecompensa> usuarioRecompensa;
+	private Collection<Atividade> atividade ;
 
 	private Ranking ranking;
 

@@ -1,3 +1,7 @@
+package br.com.soulmove.model;
+
+
+
 public class Ranking {
 
 	private long id;
@@ -6,13 +10,11 @@ public class Ranking {
 
 	private int pontuacaoTotal;
 
-	private Usuario usuario;
-
 	private Recompensa recompensa;
 
 	private Usuario usuario;
 
-	private Usuario usuario;
+
 
 	public void atualizarRanking() {
 
