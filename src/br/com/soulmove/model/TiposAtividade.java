@@ -12,6 +12,6 @@ public enum TiposAtividade {
 
 	REDUCAO_ENERGIA;
 
-	private Atividade atividade ;
+
 
 }

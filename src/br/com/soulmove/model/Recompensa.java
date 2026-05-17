@@ -1,21 +1,17 @@
 package br.com.soulmove.model;
-
-import java.util.Collection;
-
 public class Recompensa {
-
-	private long id ;
-
+	private long id;
 	private String descricao;
-
 	private int valor;
 
-	private Ranking ranking;
-
-	private Collection<UsuarioRecompensa> usuarioRecompensa;
-
-	public int resgatarRecompensa() {
-		return 0;
+	public Recompensa(long id, String descricao, int valor) {
+		this.id = id;
+		this.descricao = descricao;
+		this.valor = valor;
 	}
 
+	public boolean podeReceberRecompensa(int pontoUsuario) { return pontoUsuario >= valor; }
+	public long getId() { return id; }
+	public String getDescricao() { return descricao; }
+	public int getValor() { return valor; }
 }
